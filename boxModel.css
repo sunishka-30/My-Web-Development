@@ -1,0 +1,30 @@
+*{
+    /*  * :- is a universal selector i.e. the CSS defined under it will be applicable to all elements in the linked html file until they are overridden below under different classes or id's */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:#82cfdd;
+    border: 3px solid #e66389;
+    padding:100px; /*inside border contents position gets changed */
+    margin:20px; /*outside border for margin between different div or from sides of page as a normal margin*/
+
+    /* we can set margin/padding for top, bottom, left, right like this
+    padding-top : 70px;
+    padding-bottom:20px;
+    padding-right:30px;
+    padding-left:40px; */
+
+   /* padding: 30px 40px 50px 30px; padding/margin: top right bottom left*/
+    padding: 34px 15px; /* padding: y(top/bottom) x(left/right); */ 
+    border-radius:10px;
+    width: 250px;
+    box-sizing: border-box; /* the box will set padding according to assigned width and will not change the width upon inc/dec margin/padding */ 
+}
+
+body{
+    background-color:#cde68d;
+}
+

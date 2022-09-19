@@ -1,0 +1,31 @@
+.box{
+    width:170px;
+    height:170px;
+    border:2px solid black;
+
+}
+
+#box1{
+    position: relative;
+    top:49px;
+    z-index: 35;
+   background-color:green; 
+}
+#box2{
+    position: relative;
+    top:14px;
+    /* z-index will work only for position relative, absolute, sticky, fixed and the one with higher z-index will be seen above
+      */
+      z-index: -1;
+    /* visibility: hidden;  */
+    /*element get hidden but that place remains empty of that size*/
+    /* display: none; */
+     /*removes element as well as space*/
+    background-color:yellow; 
+ }
+ #box3{
+    background-color:lightcoral; 
+ }
+ #box4{
+    background-color:lavenderblush; 
+ }

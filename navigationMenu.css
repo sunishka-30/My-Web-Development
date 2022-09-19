@@ -1,0 +1,32 @@
+.navbar{
+    background-color:bisque;
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow:auto; /*using float the items are floated out of parent thus background is not seen, to overcome this overflow:auto is used*/
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin:13px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+
+}
+.navbar li a:hover{
+    background-color:lightcoral;
+}
+.search{
+    float:right;
+    color:white;
+    padding:12px 75px;
+}
+
+.navbar input{
+    border: 2px solid black;
+    border-radius:14px;
+    padding: 3px 17px;
+    width: 129px;
+}

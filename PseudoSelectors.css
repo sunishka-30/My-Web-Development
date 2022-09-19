@@ -1,0 +1,39 @@
+.container{
+    border: 2px solid lightcoral;
+    background-color: lightgreen;
+    padding: 34px;
+    margin: 34px auto;
+    width: 666px;
+
+}
+a{
+    text-decoration: none; /* to remove line undder hyperlink*/
+    color:black;
+}
+a:hover{
+ color: rgb(65, 16, 244);
+ background-color:white;
+}
+
+a:visited{
+    background-color: yellow;
+
+}
+
+a:active{
+    background-color:blue;
+}
+.btn{
+    background-color:lemonchiffon;
+    padding: 6px;
+    border:none;
+    cursor:pointer;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    color: rgb(65, 16, 244);
+ background-color:white;
+ border: 3px solid green;
+}

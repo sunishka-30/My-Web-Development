@@ -1,0 +1,32 @@
+.box{
+    display: inline-block;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+
+/* CSS positions: staic(default), absolute, relative, fixed, sticky */
+#box3{
+    /* position: relative; relative to its normal position and will leave a gap at its normal position
+    
+    /* top:34px; 
+     left:34px;
+     position: absolute; reltaive to its first parent position, here parent is container */
+
+    /* position:fixed; remain fixed on scrolling the webpage that is it is fixed relative to its browser window
+    right: 4px; 
+    bottom: 2px; */
+
+    /* It is a hybrid of relative and fixed position.
+    An HTML element with position:sticky; will just sit there until a given position offset is met.*/
+    position: sticky; 
+    top: 3px;
+
+
+}
+
+.container{
+    border: 2px solid black;
+    background-color:khaki;
+}

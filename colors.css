@@ -1,0 +1,13 @@
+#firstPara{
+    color:blueviolet;
+    /*color by name*/
+}
+#secondPara{
+color:rgb(123,255,234);
+/* color by rgb value  */
+}
+#thirdPara{
+    color: #ff88ff;
+    background-color: rgb(120,120,120);
+    /* color by hex value   */
+}

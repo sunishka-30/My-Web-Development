@@ -1,0 +1,27 @@
+p{
+    color:greenyellow; 
+    /*css element selector */
+}
+
+#secondPara{
+    /* css id selector, used when one particular needs to get specific properties*/
+    /* # is used for id  */
+    /* . is used for class  */
+    color:yellow;
+}
+
+.redElement{
+    /* css class selector, used when many elements need same property  */
+    color: lightblue;
+    border: 2px solid red;
+}
+.bgBlue{
+    background-color: gray;
+}
+
+footer, span{
+    /* ccs grouping selector  */
+    background-color: pink;
+}
+
+ 

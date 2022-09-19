@@ -1,0 +1,22 @@
+p{
+    
+    /* web safe fonts that are pre-installed in OS can be used here, while others need to be imported from web, google fonts can be used to import  */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font stack that is if first is not present go for another and so on   */
+    font-family: cursive;
+
+    font-family: 'Josefin Sans', sans-serif; 
+    /* imported font  */
+
+    font-size: 25px;
+    /* px that is pixel is the unit of fontsize, it is 1/96th of an inch*/
+    line-height: 8.3 em;
+    /* em means how much is parent size  */
+    /* gap between two lines if a line is present above  */
+    
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
