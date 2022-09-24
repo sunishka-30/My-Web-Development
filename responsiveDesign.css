@@ -1,0 +1,22 @@
+html{
+    font-size:25px;
+}
+.container{
+    width: 100vw; /*viewport width*/
+    height: 100vh; 
+    font-size:10px;
+    border: 2px solid red;
+}
+h1{
+
+    text-align: center;
+}
+#first{
+    font-size: 3em; /*3 times of parent size*/
+    padding:3em; /* 3 times of font size as fotn size was given frist*/
+}
+
+#second{
+    font-size: 3rem; /*relative to html size that is 3 times 25 as html has size 25 as mentioned above*/
+    padding: 3rem;
+}

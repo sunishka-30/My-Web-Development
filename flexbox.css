@@ -1,0 +1,65 @@
+.container{
+    height:544px;
+    width:100%;
+    border: 2px solid black;
+
+    /* initialize the container as a flexbox */
+    display:flex;
+
+    /* Flex properties for flex container */
+    flex-direction: row; /*default value of flex-direction is row*/
+    /* flex-direction: column;
+    flex-direction: row-reverse;  */
+    /*items will start filling from end of row by using reverse*/
+    /* flex-direction: column-reverse; */
+
+    flex-wrap: wrap; /*to wrap items such that they are responsive, default value is no-wrap*/
+    /* flex-wrap: wrap-reverse;  */
+    /* flex-flow: row-reverse wrap; shorthand */
+ 
+    justify-content: center;
+    /* to align at center  */
+
+    justify-content: space-between;
+    /* equal space between any two box/item, here there is no space before starting item and after ending item*/
+
+    justify-content:space-evenly;
+    /* equal space in starting and ending also */
+
+    justify-content:space-around;
+    /* a margin comes in left and right directions of each item */
+
+    align-items: center;
+    /* to vertically center items */
+
+    /* align-items:flex-start;
+    align-items:flex-end; 
+    align-items: stretch*/
+
+}
+
+.item{
+    width:200px;
+    height:200px;
+    background-color:tomato;
+    border: 2px solid yellow;
+    margin: 10px;
+    padding: 3px;
+}
+
+#item-1{
+    /* order:2;  the one having higher order will go at end */
+    flex-grow:3;
+    flex-shrink: 3;
+    flex-basis:320px;
+    /* when flex-direction is set to row, flex-basis will control width
+    when flex-direction is set to col, flex-basis will control height */
+}
+#item-2{
+    /* flex: 2 2 160px; */
+    /* shorthand flex : flex-grow flex-shrink flex-basis */
+
+    align-self : flex-end;
+    align-self : flex-start;
+    align-self : center;
+}

@@ -1,0 +1,55 @@
+.container{
+    background-color:yellow;
+}
+
+.box{
+    background-color:green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: ss;
+    animation-duration:2s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-in ;
+    animation-delay: 2s;
+    animation-direction: reverse;
+
+    animation-name: ys;
+    animation-duration:2s;
+    animation-iteration-count: 3;
+    
+     /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode;  shorthand*/
+
+
+}
+
+@keyframes ss{
+    from{
+        width: 200px;
+    }
+    to{
+        width:400px;
+    }
+} 
+
+@keyframes ys {
+    0%{
+        top:0px;
+        left:0px;
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+    }
+    
+}
+

@@ -1,0 +1,39 @@
+.container{
+    display:flex;
+}
+
+.card{
+    padding: 23px 12px;
+    margin:23px 12px;
+    /* border: 2px solid red; */
+    background-color:burlywood;
+
+    /* box-shadow: offset-x offset-y color;  */
+    box-shadow: 5px 10px green;
+    /* if you want shadow above then give negative values */
+
+    box-shadow: 5px 10px 12px green; 
+    /* 12 px here is blur radius */
+
+    box-shadow: 5px 10px 12px 9px green; 
+    /* 9px here is spread radius */
+
+    box-shadow: 5px 10px 12px 9px rgba(32, 133, 235, 0.7);
+    /* 0.7 in rgba is the value of alpha which defines the darkness/lightness of the color */
+    
+    box-shadow: inset 3px 5px green; 
+    /* shadow towards inside */
+
+    box-shadow: 5px 2px yellow, 7px 4px blue;
+    /* multiple shadow */
+
+}
+
+.card h1{
+     /* text-shadow: offset-x offset-y color;  */
+    text-shadow:3px 2px white;
+    
+    text-shadow: 5px 10px 12px green; 
+    /* 12 px here is blur radius */
+
+}
